@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <!--*TITLE*-->
+  <title>Monitask | Onboarding</title>
+
+  <!--*META*-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Ведите учет рабочего времени с детальными отчетами и снимками рабочего стола. Ваша удаленная команда может вручную запускать учет рабочего времени.">
+  <meta name="Keywords" content="employee tracking screenshots virtual productivity remote team management time tracker software windows app" />
+
+  <meta property="business:contact_data:website" content="https://www.monitask.com/" />
+
+  <!--Open Graph-->
+  <meta name="og:title" content="Monitask" />
+  <meta name="og:type" content="website" />
+  <meta name="og:url" content="https://www.monitask.com/" />
+  <meta name="og:site_name" content="Monitask" />
+  <meta name="og:description" content="Ведите учет рабочего времени с детальными отчетами и снимками рабочего стола. Ваша удаленная команда может вручную запускать учет рабочего времени." />
+
+  <!--*FAVICON*-->
+  <link rel="shortcut icon" href="img/favicon.png"><!-- .ico, .png, .svg, .WebP -->
+
+
+  <!--*CSS*-->
+
+  <!--*CSS-LIBRARIES*-->
+  <!--Swiper-->
+  <!--v.6.5.0-->
+  <link href="libs/SwiperJS/swiper-bundle.min.css" rel="stylesheet">
+
+  <!--Normalize-->
+  <link href="css/normalize.css" rel="stylesheet">
+  <!--main custom-->
+  <link href="css/main.css" rel="stylesheet">
+
+  <!--*FONTS*-->
+  <!--*отдельный файл CSS для шрифтов (google за это снижает баллы)
+      *<link href="css/fonts.css" rel="stylesheet">
+      *-->
+
+  <!--*ICONS*-->
+  <!--google material icons-->
+  <!--*(подключение через CDN)
+      *<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      *-->
+
+
+  <!--*JAVA SCRIPT*-->
+
+  <!--*JAVA SCRIPT FRAMEWORKS*-->
+  <!--VUEjs-->
+  <!--v.3.0.7-->
+  <script src="libs/Vue/vue.min.js"></script>
+  <!--AXIOS-->
+  <script src="libs/axios/axios.min.js"></script>
+
+  <!--*JAVA SCRIPT CAROUSEL*-->
+  <!--SwiperJS v.6.5.0-->
+  <script src="libs/SwiperJS/swiper-bundle.min.js"></script>
+
+  <!--*JAVA SCRIPT TABS/ACCORDION*-->
+
+</head>
+
+<body>
+
+  <div class="site" id="app">
+
+    <header class="site-header">
+
+      <div class="site-header_content">
+        <a href="index.html" class="site-header_logobox">
+          <img src="img/logo.svg" alt="" class="site-header_logo">
+        </a>
+        <div class="site-header_menu">
+          <div class="site-header_loc">
+            <button class="site-header_loc-btn c-btn c-btn--text-base">
+              <span class="site-header_btn-icon icon-eng"></span>
+              <span class="site-header_btn-label">Eng</span>
+              <span class="site-header_btn-control"></span>
+            </button>
+            <div class="site-header_menu-dropdown">
+              <ul class="menu-dropdown">
+                <li class="menu-dropdown_item">
+                  <a href="#" class="menu-dropdown_link active">
+                    <span class="site-header_btn-icon icon-eng"></span>
+                    <span class="site-header_btn-label">Eng</span>
+                  </a>
+                </li>
+                <li class="menu-dropdown_item">
+                  <a href="#" class="menu-dropdown_link">
+                    <span class="site-header_btn-icon icon-fr"></span>
+                    <span class="site-header_btn-label">Fr</span>
+                  </a>
+                </li>
+                <li class="menu-dropdown_item">
+                  <a href="#" class="menu-dropdown_link">
+                    <span class="site-header_btn-icon icon-esp"></span>
+                    <span class="site-header_btn-label">Esp</span>
+                  </a>
+                </li>
+                <li class="menu-dropdown_item">
+                  <a href="#" class="menu-dropdown_link">
+                    <span class="site-header_btn-icon icon-it"></span>
+                    <span class="site-header_btn-label">It</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="sign-up.html" class="site-header_btn c-btn c-btn--text-base">
+            Sign Up
+          </a>
+          <a href="sign-in.html" class="site-header_btn c-btn c-btn--outline-base">
+            Sign In
+          </a>
+        </div>
+      </div>
+
+    </header>
+    <!--/.site-header-->
+
+    <div class="site-body">
+
+      <div class="site-row">
+
+        <div class="site-content">
+
+          <div class="page">
+
+            <div class="page-header">
+              <h2 class="page-title">
+                Thank you for joining Monitask
+              </h2>
+              <p class="page-subtitle">
+                Tell us about your business - setup will not take more than 3 minutes.
+              </p>
+            </div>
+            <!--/.page-header-->
+
+            <div class="page-body">
+
+              <div class="page-content">
+
+                <!-----------------
+                  -----------------
+                  page content here
+                  -----------------
+                  ----------------->
+                <div class="page-content_card u-container">
+
+                  <div class="onboarding">
+                    <ol class="onboarding_tabs">
+                      <li class="onboarding_tabs-item tablinks active" id="tabControl1" onclick="openTab(event, 'tab1')" data-complete="Company successfully added">
+                        Create your organisation or join an existing one.
+                      </li>
+                      <li class="onboarding_tabs-item tablinks" id="tabControl2" onclick="openTab(event, 'tab2')" data-complete="3 projects successfully added">
+                        Add projects
+                      </li>
+                      <li class="onboarding_tabs-item tablinks" id="tabControl3" onclick="openTab(event, 'tab3')" data-complete="Invited 9 teammates">
+                        Invite teammates
+                      </li>
+                      <li class="onboarding_tabs-item tablinks" id="tabControl4" onclick="openTab(event, 'tab4')">
+                        Increase free trial period
+                      </li>
+                    </ol>
+
+                    <div class="onboarding_content tabcontent active" id="tab1">
+                      <form class="page-content_form onboarding_item">
+                        <h3 class="page-form_title">
+                          Tell us about your company
+                        </h3>
+                        <div class="form_item form_item--onboarding">
+                          <input class="form_input" type="text" name="company-name" placeholder="Companyname *" required>
+                        </div>
+                        <div class="form_itemform_item form_item--onboarding">
+                          <div class="form_input form_select">
+                            <select class="select" name="company-size">
+                              <option value="0" selected disabled>Size of your company</option>
+                              <option class="form_option" value="1-10">1 - 10</option>
+                              <option class="form_option" value="10-50">10 - 50</option>
+                              <option class="form_option" value="50-100">50 - 100</option>
+                              <option class="form_option" value="100-500">100 - 500</option>
+                              <option class="form_option" value="500-1000">500 - 1000</option>
+                              <option class="form_option" value=">1000">Over 1000</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="form_itemform_item form_item--onboarding">
+                          <div class="form_input form_select">
+                            <select class="select" name="company-industry">
+                              <option value="0" selected disabled>Industry of your company</option>
+                              <option class="form_option" value="1">Healtcare</option>
+                              <option class="form_option" value="2">IT</option>
+                              <option class="form_option" value="3">Sciense</option>
+                              <option class="form_option" value="4">Creative agency</option>
+                              <option class="form_option" value="5">Energy generation</option>
+                              <option class="form_option" value="6">Transport</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="form_itemform_item form_item--onboarding">
+                          <div class="form_input form_select">
+                            <select class="select" name="company-needs">
+                              <option value="0" selected disabled>Most important features for you</option>
+                              <option class="form_option" value="1">Speed</option>
+                              <option class="form_option" value="2">Functional</option>
+                              <option class="form_option" value="3">Open source</option>
+                              <option class="form_option" value="4">Legacy</option>
+                              <option class="form_option" value="5">Easy install</option>
+                              <option class="form_option" value="6">Opened for staff</option>
+                            </select>
+                          </div>
+                        </div>
+                        <small class="form_desc form_item form_item--onboarding form_desc--margin">
+                          All settings can be changed later.
+                        </small>
+                        <button class="form_item form_btn--onboarding form_btn c-btn c-btn--flat-base" type="button" onclick="openTab2()">
+                          CREATE AND CONTINUE
+                        </button>
+                        <div class="form_lead">
+                          <hr class="form_hr">
+                          <span class="form_lead-text">
+                            OR JOIN EXISTING ONE
+                          </span>
+                          <hr class="form_hr">
+                        </div>
+                        <div class="form_item form_item--onboarding">
+                          <input class="form_input" type="email" name="admin-email" placeholder="Administrator email" required>
+                        </div>
+                        <a href="joined.html" class="form_item form_btn--onboarding form_btn c-btn c-btn--outline-main">
+                          SEND REQUEST
+                        </a>
+                        <div class="onboarding_item-caption">
+                          <a href="#" class="onboarding_item-caption-text" onclick="openTab2()">
+                            Skip this step
+                          </a>
+                        </div>
+                      </form>
+
+
+                      <div class="page-content_desc onboarding_item">
+                        <!-- Swiper -->
+                        <div class="carousel swiper-container">
+                          <div class="swiper-wrapper">
+
+                            <div class="carousel_item swiper-slide">
+                              <div class="carousel_content onboarding_desc">
+                                <h3 class="carousel_title onboarding_carousel-title">
+                                  Welcome to Monitask!
+                                </h3>
+                                <ul class="carousel_list onboarding_carousel-list">
+                                  <li class="carousel_list-item">
+                                    <h4 class="carousel_list-title">
+                                      Add your own company
+                                    </h4>
+                                    <p class="carousel_list-text">
+                                      Tell us about your business, or do it later in your account.
+                                    </p>
+                                  </li>
+                                  <li class="carousel_list-item">
+                                    <h4 class="carousel_list-title">
+                                      Join an existing company
+                                    </h4>
+                                    <p class="carousel_list-text">
+                                      Just enter the administrator email and waiting for approve.
+                                    </p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+
+                            <div class="carousel_item swiper-slide">
+                              <div class="carousel_content onboarding_desc">
+                                <h3 class="carousel_title onboarding_carousel-title">
+                                  Welcome to Monitask!
+                                </h3>
+                                <ul class="carousel_list onboarding_carousel-list">
+                                  <li class="carousel_list-item">
+                                    <h4 class="carousel_list-title">
+                                      Offline Time Entry
+                                    </h4>
+                                    <p class="carousel_list-text">
+                                      No internet connection? No problem. Monitask’s time tracker records time even when an employee is offline. Once an internet connection is available, all recorded time is securely uploaded for your convenience.
+                                    </p>
+                                  </li>
+                                  <li class="carousel_list-item">
+                                    <h4 class="carousel_list-title">
+                                      Screenshots
+                                    </h4>
+                                    <p class="carousel_list-text">
+                                      Proof-of-work screenshots are a great way to review daily operations and identify unproductive employees. Screenshots can be turned off or blurred for sensitive content.
+                                    </p>
+                                  </li>
+                                  <li class="carousel_list-item">
+                                    <h4 class="carousel_list-title">
+                                      Activity Levels
+                                    </h4>
+                                    <p class="carousel_list-text">
+                                      Activity levels show how active an employee is during their workday. Activity levels are calculated based on general keyboard and mouse usage.
+                                    </p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+
+                            <div class="carousel_item swiper-slide">
+                              <div class="carousel_content onboarding_desc">
+                                <h3 class="carousel_title onboarding_carousel-title">
+                                  Welcome to Monitask!
+                                </h3>
+                                <ul class="carousel_list onboarding_carousel-list">
+                                  <li class="carousel_list-item">
+                                    <h4 class="carousel_list-title">
+                                      Idle Time Detection
+                                    </h4>
+                                    <p class="carousel_list-text">
+                                      Automatically identify and remove idle time by enabling this feature. Idle time detection can help you save thousands of dollars a year by reducing your payroll.
+                                    </p>
+                                  </li>
+                                  <li class="carousel_list-item">
+                                    <h4 class="carousel_list-title">
+                                      Employee App
+                                    </h4>
+                                    <p class="carousel_list-text">
+                                      The Monitask application is for employees of all levels, including contractors and freelancers. This app will enable them to track their work hours for projects assigned to them in Monitask.
+
+                                    </p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+
+                          </div>
+                          <!-- Add Pagination -->
+                          <div class="carousel_pagination swiper-pagination"></div>
+                          <!-- Add Arrows -->
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
+                        </div>
+
+                        <div class="onboarding_item-caption">
+                          <span class="onboarding_item-caption-text">
+                            Step 1/4
+                          </span>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+                    <div class="onboarding_content tabcontent" id="tab2">
+                     <div class="onboarding-card_form" id="project-list"></div>
+                      <form class="page-content_form onboarding_item" v-on:submit.prevent="addNewProject">
+                        <h3 class="page-form_title">
+                          Add projects to your company
+                        </h3>
+                        <div class="form_item form_item--onboarding">
+                          <input class="form_input" type="text" name="project-name" placeholder="Name of new project" v-model="newProjectText" id="new-project" required>
+                        </div>
+
+                        <button href="#" class="form_btn--onboarding form_btn c-btn c-btn--outline-main">
+                          <span class="form_btn-icon">
+                            <svg height="10" width="10" viewBox="0 0 48 48">
+                              <use xlink:href="img/icons/add.svg#icon-add"></use>
+                            </svg>
+                          </span>
+                          ADD PROJECT
+                        </button>
+
+                        <small class="form_desc form_item form_item--onboarding form_desc--margin">
+                          You have added {{ projects.length }} projects
+                        </small>
+
+                        <ul class="onboarding_projects">
+                          <li class="onboarding_project-item"
+                              v-for="(project, index) in projects"
+                              v-bind:key="project.id"
+                              v-bind:title="project.title">
+                            <span class="onboarding_project-name">
+                              {{ project.title }}
+                            </span>
+                            <div class="onboarding_project-controls">
+                              <button class="c-btn--text-neutral onboarding_project-btn" type="button">
+                                <svg id="icon-close" class="btn-icon" height="10" width="10" viewBox="0 0 9 9">
+                                  <use xlink:href="img/icons/edit.svg#icon-edit"></use>
+                                </svg>
+                              </button>
+                              <button class="c-btn--text-neutral onboarding_project-btn" type="button" @click="remove(index)">
+                                <svg class="btn-icon" height="10" width="10" viewBox="0 0 10 10">
+                                  <use xlink:href="img/icons/close.svg#icon-close"></use>
+                                </svg>
+                              </button>
+                            </div>
+                          </li>
+                        </ul>
+
+                        <div class="u-mt-auto">
+                          <button class="form_btn--onboarding form_btn c-btn c-btn--flat-base" type="button" onclick="openTab3()">
+                            SAVE PROJECTS
+                          </button>
+                        </div>
+
+                        <div class="onboarding_item-caption">
+                          <a href="#" class="onboarding_item-caption-text" onclick="openTab3()">
+                            Skip this step
+                          </a>
+                        </div>
+                      </form>
+
+
+                      <div class="page-content_desc onboarding_item">
+                        <div class="carousel_content onboarding_desc">
+                          <h3 class="carousel_title onboarding_carousel-title">
+                            Adding projects
+                          </h3>
+                          <p class="onboarding_subtitle">
+                            You can add projects to your company, to which you or your employees will be able to add tasks and monitor their implementation.
+                          </p>
+                          <ul class="carousel_list onboarding_carousel-list">
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                Simple to add
+                              </h4>
+                              <p class="carousel_list-text">
+                                Input name of your project and press “Add”. Repeat as many times as you need now.
+                              </p>
+                            </li>
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                Projects has tasks
+                              </h4>
+                              <p class="carousel_list-text">
+                                Later you may add tasks to each project.
+                              </p>
+                            </li>
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                Reports may filtered by projects
+                              </h4>
+                              <p class="carousel_list-text">
+                                You will be able to further monitor your work processes, segmenting them by project and task.
+                              </p>
+                            </li>
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                Start with a few
+                              </h4>
+                              <p class="carousel_list-text">
+                                You can add new projects or delete existing ones later on the projects page.
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="onboarding_item-caption">
+                          <span class="onboarding_item-caption-text">
+                            Step 2/4
+                          </span>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+                    <div class="onboarding_content tabcontent" id="tab3">
+                      <form class="page-content_form onboarding_item">
+                        <h3 class="page-form_title">
+                          Invite teammates to company
+                        </h3>
+                        <div class="form_item form_item--onboarding">
+                          <textarea class="form_textarea" name="invite-list" placeholder="Enter email addresses separated by new lines for a bulk upload"></textarea>
+                        </div>
+                        <div class="form_itemform_item form_item--onboarding">
+                          <div class="form_input form_select">
+                            <select class="select" name="company-size">
+                              <option value="0" selected disabled>Role of employee</option>
+                              <option class="form_option" value="1">Project manager</option>
+                              <option class="form_option" value="2">Team leader</option>
+                              <option class="form_option" value="3">Data Architector</option>
+                              <option class="form_option" value="4">Designer</option>
+                              <option class="form_option" value="5">Art. Director</option>
+                              <option class="form_option" value="6">Tech. Director</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="form_itemform_item form_item--onboarding">
+                          <div class="form_input form_select">
+                            <select class="select" name="company-industry">
+                              <option value="0" selected disabled>
+                              Add employee to projects
+                              </option>
+                              <option
+                              v-for="(project, index) in projects"
+                              v-bind:key="project.id"
+                              v-bind:title="project.title">
+                              {{ project.title }}
+                              </option>
+                            </select>
+                          </div>
+                        </div>
+                        <button class="form_item form_btn--onboarding form_btn c-btn c-btn--outline-main u-my-md" type="button">
+                          INVITE
+                        </button>
+
+                        <small class="form_desc form_item form_item--onboarding form_desc--margin">
+                          You will invite 9 employees
+                        </small>
+                        <div class="onboarding_gradbox">
+                          <ul class="onboarding_invite-list">
+                            <li class="onboarding_invite-item">
+                              <span class="onboarding_invite-name">
+                                jackbroadbent@yahoo.com
+                              </span>
+                              <div class="onboarding_invite-controls">
+                                <button class="c-btn--text-neutral onboarding_project-btn" type="button">
+                                  <svg class="btn-icon" height="10" width="10" viewBox="0 0 9 9">
+                                    <use xlink:href="img/icons/close.svg#icon-close"></use>
+                                  </svg>
+                                </button>
+                              </div>
+                            </li>
+                            <li class="onboarding_invite-item">
+                              <span class="onboarding_invite-name">
+                                elizabethkurie@yahoo.com
+                              </span>
+                              <div class="onboarding_invite-controls">
+                                <button class="c-btn--text-neutral onboarding_project-btn" type="button">
+                                  <svg class="btn-icon" height="10" width="10" viewBox="0 0 9 9">
+                                    <use xlink:href="img/icons/close.svg#icon-close"></use>
+                                  </svg>
+                                </button>
+                              </div>
+                            </li>
+                            <li class="onboarding_invite-item">
+                              <span class="onboarding_invite-name">
+                                mariadoe@gmail.com
+                              </span>
+                              <div class="onboarding_invite-controls">
+                                <button class="c-btn--text-neutral onboarding_project-btn" type="button">
+                                  <svg class="btn-icon" height="10" width="10" viewBox="0 0 9 9">
+                                    <use xlink:href="img/icons/close.svg#icon-close"></use>
+                                  </svg>
+                                </button>
+                              </div>
+                            </li>
+                            <li class="onboarding_invite-item">
+                              <span class="onboarding_invite-name">
+                                victorriss@mail.com
+                              </span>
+                              <div class="onboarding_invite-controls">
+                                <button class="c-btn--text-neutral onboarding_project-btn" type="button">
+                                  <svg class="btn-icon" height="10" width="10" viewBox="0 0 9 9">
+                                    <use xlink:href="img/icons/close.svg#icon-close"></use>
+                                  </svg>
+                                </button>
+                              </div>
+                            </li>
+                            <li class="onboarding_invite-item">
+                              <span class="onboarding_invite-name">
+                                johndoe@amazol.com
+                              </span>
+                              <div class="onboarding_invite-controls">
+                                <button class="c-btn--text-neutral onboarding_project-btn" type="button">
+                                  <svg class="btn-icon" height="10" width="10" viewBox="0 0 9 9">
+                                    <use xlink:href="img/icons/close.svg#icon-close"></use>
+                                  </svg>
+                                </button>
+                              </div>
+                            </li>
+                            <li class="onboarding_invite-item">
+                              <span class="onboarding_invite-name">
+                                carlzeiss@gmail.com
+                              </span>
+                              <div class="onboarding_invite-controls">
+                                <button class="c-btn--text-neutral onboarding_project-btn" type="button">
+                                  <svg class="btn-icon" height="10" width="10" viewBox="0 0 9 9">
+                                    <use xlink:href="img/icons/close.svg#icon-close"></use>
+                                  </svg>
+                                </button>
+                              </div>
+                            </li>
+                            <li class="onboarding_invite-item">
+                              <span class="onboarding_invite-name">
+                                sodriges@mail.com
+                              </span>
+                              <div class="onboarding_invite-controls">
+                                <button class="c-btn--text-neutral onboarding_project-btn" type="button">
+                                  <svg class="btn-icon" height="10" width="10" viewBox="0 0 9 9">
+                                    <use xlink:href="img/icons/close.svg#icon-close"></use>
+                                  </svg>
+                                </button>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <button class="form_item form_btn--onboarding form_btn c-btn c-btn--flat-base u-mt-auto" type="button" onclick="openTab4()">
+                          SEND INVITES
+                        </button>
+                        <div class="onboarding_item-caption">
+                          <a href="#" class="onboarding_item-caption-text" onclick="openTab4()">
+                            Skip this step
+                          </a>
+                        </div>
+                      </form>
+
+
+                      <div class="page-content_desc onboarding_item">
+                        <div class="carousel_content onboarding_desc">
+                          <h3 class="carousel_title onboarding_carousel-title">
+                            Adding employees
+                          </h3>
+                          <p class="onboarding_subtitle">
+                            You may add your employees to your company right now. Later, you may split them into teams.
+                          </p>
+                          <ul class="carousel_list onboarding_carousel-list">
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                Invites doesn’t send immediately
+                              </h4>
+                              <p class="carousel_list-text">
+                                You can go back to this step and adjust your invitations to employees.
+                              </p>
+                            </li>
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                Everything can be changed
+                              </h4>
+                              <p class="carousel_list-text">
+                                You will be able to edit your employees in the company settings later, you do not need to add all at once right now.
+                              </p>
+                            </li>
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                Use bulk upload by file
+                              </h4>
+                              <p class="carousel_list-text">
+                                Skip this step if you have a list of employees in CSV/TXT/XML format (templates can be downloaded below). Later you can download your employees in one file.
+                              </p>
+                            </li>
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                Employees has roles
+                              </h4>
+                              <p class="carousel_list-text">
+                                Employee can track time against projects and review basic reports.
+                                <br>
+                                Co-administrator can see all employees, projects, and reports as admin but does not have access to billing.
+                              </p>
+                            </li>
+                          </ul>
+                          <p class="onboarding_caption">
+                            Templates for employees bulk upload
+                          </p>
+                          <div class="onboarding_desc_pictograms">
+                            <figure class="onboarding_pic">CSV</figure>
+                            <figure class="onboarding_pic">XLS</figure>
+                            <figure class="onboarding_pic">TXT</figure>
+                          </div>
+                        </div>
+
+                        <div class="onboarding_item-caption">
+                          <span class="onboarding_item-caption-text">
+                            Step 3/4
+                          </span>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+                    <div class="onboarding_content tabcontent" id="tab4">
+                      <form class="page-content_form onboarding_item">
+                        <h3 class="page-form_title">
+                          Get extra free days for trial
+                        </h3>
+                        <fieldset class="form_set">
+
+                          <legend class="form_set-title">
+                            Get 5 extra free days
+                          </legend>
+
+                          <div class="form_item form_item--onboarding">
+                            <input class="form_input" type="tel" name="trial-phone" placeholder="Your phone number">
+                          </div>
+
+                          <small class="form_desc form_item form_item--onboarding form_desc--margin">
+                            Enter your contact phone number and you will receive an additional 5 days of free trial period.
+                          </small>
+
+                        </fieldset>
+
+                        <fieldset class="form_set">
+
+                          <legend class="form_set-title">
+                            And 5 more free days!
+                          </legend>
+
+                          <div class="form_item form_item--onboarding">
+                            <input class="form_input" type="text" name="card-num" placeholder="Credit Card Num">
+                          </div>
+
+                          <div class="form_item-set">
+                              <input class="form_input form_input--flex" type="number" name="card-month" placeholder="Exp. Month">
+                              <input class="form_input form_input--flex" type="number" name="card-year" placeholder="Exp. Year">
+                              <input class="form_input form_input--flex" type="number" name="card-cvc" placeholder="CVC" maxlength="3">
+                          </div>
+
+                          <div class="form_item form_item--onboarding">
+                            <input class="form_input" type="number" name="company-name" placeholder="Card Holder">
+                          </div>
+
+                          <small class="form_desc form_item form_item--onboarding form_desc--margin">
+                            Add your credit card right now and receive an additional 5 days of free trial period. You will <b class="font-bold">NOT</b> be billed until your trial expires. We don't store this information for security purposes. Billing provided by <span class="text-accent">Stripe</span>.
+                          </small>
+
+                        </fieldset>
+
+                        <button class="form_item form_btn--onboarding form_btn c-btn c-btn--flat-base u-mt-auto" type="submit">
+                          GO TO DASHBOARD
+                        </button>
+
+                        <div class="onboarding_item-caption">
+                          <a href="#" class="onboarding_item-caption-text">
+                            Skip this step
+                          </a>
+                        </div>
+                      </form>
+
+
+                      <div class="page-content_desc onboarding_item">
+                        <div class="carousel_content onboarding_desc">
+                          <h3 class="carousel_title onboarding_carousel-title">
+                            Get 20-day free trial
+                          </h3>
+                          <p class="onboarding_subtitle">
+                            One-time offer - you can easily to double your free trial period right now:
+                          </p>
+                          <ul class="carousel_list onboarding_carousel-list">
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                5 extra free days per phone number
+                              </h4>
+                              <p class="carousel_list-text">
+                                No one will call you at night. But it will help us to fast communicate with you during solving your issues.
+                              </p>
+                            </li>
+                            <li class="carousel_list-item">
+                              <h4 class="carousel_list-title">
+                                5 extra free days per added card
+                              </h4>
+                              <p class="carousel_list-text">
+                                No any paying right now. Your subscription will start apply only after trial finish.
+                              </p>
+                            </li>
+                          </ul>
+                          <p class="onboarding_subtitle">
+                            You can delete your phone number or credit card details at any time in your account.
+                          </p>
+                        </div>
+
+                        <div class="onboarding_item-caption">
+                          <span class="onboarding_item-caption-text">
+                            Step 4/4
+                          </span>
+                        </div>
+
+                      </div>
+
+                    </div>
+                    <!--/.onboarding_content-->
+
+                  </div>
+                  <!--/.onboarding-->
+
+                </div>
+
+              </div>
+              <!--/.page-content-->
+
+            </div>
+            <!--/.page-body-->
+
+            <div class="page-footer">
+            </div>
+            <!--/.page-footer-->
+
+          </div>
+          <!--/.page-->
+
+        </div>
+        <!--/.site-content-->
+
+      </div>
+      <!--/.site-row-->
+
+    </div>
+    <!--/.site-body-->
+
+    <footer class="site-footer">
+
+    </footer>
+    <!--/.site-footer-->
+
+  </div>
+  <!--/.site-->
+
+  <!--SCRIPTS-->
+  <script async src="js/app.js"></script>
+  <script async src="js/main.js"></script>
+  <!--/SCRIPTS-->
+
+</body>
+
+</html>
+
+
+
+
+
+
+<!--
+ICONS reuse
+
+<span class="c-article_stats-item">
+  <svg class="e-icon" height="20" width="20" viewBox="0 0 48 48">
+    <use xlink:href="/img/icons/ic_chat_bubble.svg#icon-comments"></use>
+  </svg>
+</span>
+
+-->
